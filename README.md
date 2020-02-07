@@ -3,7 +3,7 @@
 <img src="screenshot.png"/>
 
 Hier sieht man unser selbstgecodetes Space invader spiel. Hier kann man mit einem Kleinen raumschif Die Angreifenden invader abschießen. Das Ganze wurde im Rahmen der Programmierpsrachen vorlesung an der HfG gMünd Programmiert. 
-Die Inspiration sowie Gewissen Grundfunktionen (Raumschiff, Schießen und das Spielfenster) im Code wurden uns von Unserem Dozenten Florian Geiselhart gegeben.
+Die Inspiration sowie Gewisse Grundfunktionen (Raumschiff, Schießen und das Spielfenster) im Code wurden uns von Unserem Dozenten Florian Geiselhart gegeben.
 
 ## Usage / Benutzung
 
@@ -24,6 +24,16 @@ Klassen können z.B. wie folgt kurz beschrieben werden:
   * `isDrunk`: gibt an ob eine Person betrunken ist (Property, Boolean)
 
 _Zentrale Funktionen (die nicht zu Klassen gehören) folgen dem selben Muster, werden aber meist etwas ausführlicher beschrieben:_
+
+
+`function newGame()`: Eine funktion die zum spielstart ausgeführt wird. Hier werden die invaders mit jeweils 5 zeichen höhe und 8 zeichen breite in den Array Invaders geschrieben.
+
+`function generateInvader()`: In dieser Funktion werden mit einer Zufallszahl die invader random generiert.
+
+`function renderBullets()`: Hier wird die Bullet gerendert und hier findet auch die Hit detection mittel if schleife statt. sobald sich die bullet an der stelle eines "#" symbols befindet greift die if schleife. und löscht den invaders array und ersetzt ihn an stelle zwei mit dem Wort "peng!". gleichzeitig wird in den score array eine eins geschrieben.
+
+
+
 
 `haveParty(persons[], interval)`: Eine Funktion die ein Array von Personen entgegennimmt, und diese dann im angegebenen Intervall Bier trinken lässt. Nach jedem Durchlauf durch das Biertrinken (durch Aufruf von drinkBeer mit einem neu erzeugten Bier-Objekt) wird überprüft, ob die Anzahl der betrunkenen Personen größer 0 ist. Wenn dies eintritt, wird das Intervall bei jedem Durchlauf auf die doppelte Länge verlängert. Die Funktion endet in ihrer Ausführung dann wenn alle Personen isDrunk = true zurückgeben, oder wenn das Interval größer als 1 Stunde wird. Wird die Funktion mit nur einer Person im Array aufgerufen, wird eine Warnmeldung ausgegeben, um versehentliches Trinken alleine zu vermeiden. 
 

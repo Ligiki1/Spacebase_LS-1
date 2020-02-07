@@ -1,0 +1,16 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+.scoreboard {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid white;
+  position: absolute;
+  top: 5vh;
+  right: 1.5vh;
+  width: 15ch;
+} 

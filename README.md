@@ -87,11 +87,10 @@ function renderInvaders(posX, posY, invaders) {
 
 **Scoreboard**
 
-<p id="scoreboard" class="scoreboard">punkte</p>
+	<p id="scoreboard" class="scoreboard">punkte</p>
 
 
-**unsere pseudoRow**
-
+**unsere pseudoRow** -->
 
 **new game**
 

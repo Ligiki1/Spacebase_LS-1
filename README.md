@@ -2,11 +2,6 @@
 
 <img src="screenshot.png"/>
 
-# Dokumentation Stefan Reich und Ligia Dietze 
-
-<img src="screenshot.png"/>
-
-<<<<<<< HEAD
 Hier sieht man unser selbstgecodetes Space Invader Spiel. Dabei kann man mit dem kleinen Raumschiff die angreifenden Invaders abschießen. Das Ganze wurde im Rahmen der Programmierpsrachen Vorlesung an der HfG Gmünd programmiert. 
 Die Basis für das Spiel, wie auch Grundfunktionen (Raumschiff, Schießen und das Spielfenster) wurden von unserem Dozenten Florian Geiselhart vorprogrammiert. Unsere Aufgabe bestand darin Space Invaders zu generieren, sie bewegen und explodieren zu lassen, sowie einen Score einzubauen.
 
